@@ -1,8 +1,8 @@
+### Android template
 # Built application files
-*.apk
 *.ap_
 
-# Files for the ART/Dalvik VM
+# Files for the Dalvik VM
 *.dex
 
 # Java class files
@@ -11,8 +11,20 @@
 # Generated files
 bin/
 gen/
-out/
 
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 # Gradle files
 .gradle/
 build/
@@ -29,27 +41,5 @@ proguard/
 # Android Studio Navigation editor temp files
 .navigation/
 
-# Android Studio captures folder
-captures/
-
-# Intellij
-*.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/dictionaries
-.idea/libraries
-
-# Keystore files
-*.jks
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
+# Created by .ignore support plugin (hsz.mobi)
+/SnM/gradle.properties
