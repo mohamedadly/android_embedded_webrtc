@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         CookieManager cookieManager = CookieManager.getInstance();
         cookieManager.setAcceptThirdPartyCookies(wv, true);
 
-        wv.loadUrl("https://www.searchandmap.com/cast/");
+        wv.loadUrl("https://www.searchandmap.com/cast/webrtc.html");
 
         final MainActivity context = this;
         wv.setWebChromeClient(new WebChromeClient(){
